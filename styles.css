@@ -1,0 +1,29 @@
+.overlay-text{
+    font-family: libel;
+    position:absolute;
+    color:white;
+    text-align: center;
+    padding:10px 20px;
+    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 50%;
+    font-size: 50px;
+    letter-spacing: .2rem;
+}
+
+img[alt~="firework-image"]{
+    width:100%;
+    display: inline-block;
+
+}
+.image-container{
+    position: relative;
+    display: inline-block;
+    width: 33%;
+    background-image: url("firework.jpg");
+}
+.background{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(185, 183, 183);
+}
