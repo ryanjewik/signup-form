@@ -26,4 +26,23 @@ img[alt~="firework-image"]{
     height: 100%;
     width: 100%;
     background-color: rgb(185, 183, 183);
+    display: flex;
+}
+.signin-form{
+    display: grid;
+    height:auto
+}
+form{
+    justify-content: center;
+    display: grid;
+    text-align: left;
+    grid-template-rows: .2rem, .1rem, .1rem;
+}
+.form-row{
+    justify-content: center;
+    display:flex;
+    justify-content: left;
+}
+label{
+
 }
