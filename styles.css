@@ -19,30 +19,50 @@ img[alt~="firework-image"]{
 .image-container{
     position: relative;
     display: inline-block;
-    width: 33%;
+    width: 60%;
     background-image: url("firework.jpg");
 }
 .background{
     height: 100%;
     width: 100%;
-    background-color: rgb(185, 183, 183);
     display: flex;
+    background-color: #2c3b50;
 }
 .signin-form{
     display: grid;
-    height:auto
+    width: 100%;
+    height:auto;
+    background-color: #ce635d;
+    margin: 5% 0%;
 }
 form{
     justify-content: center;
     display: grid;
     text-align: left;
-    grid-template-rows: .2rem, .1rem, .1rem;
+    row-gap: 0px;;
 }
 .form-row{
     justify-content: center;
     display:flex;
     justify-content: left;
+    padding-left: 3%;
+    padding-right: 3%;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+input[type="text"], input[type="password"]{
+    max-width: 8rem;
+    max-height: 1.5rem;
+    margin: 5px 7px;
+}
+input[type="submit"]{
+    height: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 label{
-
+    color: white;
+    font-size: 18px;
+    text-shadow: 0 0 3px #2c3b50;
 }
