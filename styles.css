@@ -51,7 +51,7 @@ form{
     margin-top: -50px;
     margin-bottom: -50px;
 }
-input[type="text"], input[type="password"]{
+input[type="text"], input[type="password"], input[type="email"]{
     max-width: 8rem;
     max-height: 1.5rem;
     margin: 5px 7px;
